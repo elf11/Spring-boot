@@ -1,0 +1,35 @@
+chromium-browser --proxy-server="http://http-proxy.romania.luxoft.com/autoconfig.pac"
+======== create dash ==========
+{
+"id":1",
+"name":"dash_1",
+"description":"best_dash_ever",
+"createdOn":"20/06/2015",
+"lastUpdateOn":"20/06/2015"
+}
+
+{
+"id":1,
+"name":"widget_1",
+"description":"first",
+"createdOn":"23/6/2015",
+"lastUpdateOn":"23/06/2015",
+"type":"normal",
+"source":"source",
+"sourceDetail":"source detail",
+"destination":"dest",
+"destinationDetail":"dest detail",
+"timePeriod":1500,
+"chartType":"UTF-8",
+"displays":1,
+"dashboard_id":1
+}
+
+{
+"id":1,
+"name":"report_1",
+"description":"reporting things",
+"createdOn":"22/06/2015",
+"lastUpdateOn":"22/06/2015",
+"widget_id":1
+}
