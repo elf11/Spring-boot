@@ -3,7 +3,9 @@ package com.jersey.config;
 import com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.server.ServerProperties;
+import org.springframework.stereotype.Component;
 
+@Component
 public class JerseyInitialization extends ResourceConfig {
     /**
      * Register JAX-RS application components.
